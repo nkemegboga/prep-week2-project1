@@ -151,7 +151,7 @@ document.getElementById("submitD").addEventListener("click", function() {
 //    You can get fancy by adding CSS styles to each of these displays to change the color, too - Green=Good, Orange=OK, Red=Bad
 document.getElementById("submitE").addEventListener("click", function() {
   var scoreE = document.getElementById("score").value;
-  if (scoreE > 100) {document.getElementById("qe").innerHTML = "Maximum score is 100";}
+  if (scoreE > 100) {document.getElementById("qe").innerHTML = "Error: Maximum score is 100";}
   else if (scoreE >= 90) {document.getElementById("qe").innerHTML = "Great job!";}
   else if (scoreE >= 60 && score <= 89) {document.getElementById("qe").innerHTML = "Nice work, keep practicing"}
   else if (scoreE <= 59) {document.getElementById("qe").innerHTML = "Very bad: study more and retake the test"}
